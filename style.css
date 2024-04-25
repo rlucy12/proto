@@ -1,0 +1,330 @@
+#b {
+    background-color: rgb(22, 18, 24);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#port {
+    font-size: 3vw;
+    /* color: aqua; */
+    padding: 5px;
+    border-radius: 30%;
+    background: linear-gradient(to right, rgb(124, 242, 250), rgb(190, 254, 88), rgb(126, 126, 254));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* background-color: rgb(206, 16, 240); */
+}
+
+.nav-links {
+    display: flex;
+    margin-left: 180%;
+    padding: 5%;
+}
+
+.nav-links a {
+    font-size: 2vw;
+    color: rgb(210, 44, 247);
+    padding: 1px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin-left: 40%;
+    border-bottom: 1px solid blue;
+}
+
+pre {
+
+    margin-left: 5px;
+    margin-top: 15px;
+    font-size: 3vw;
+    padding: 5%;
+    padding-top: 5%;
+    float: left;
+    width: 50%;
+    background: linear-gradient(to right,rgb(82, 237, 159), rgb(248, 143, 248),rgb(6, 254, 217));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#skill {
+    position: absolute;
+    left: 9.1%;
+    top: 100%;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    margin-right: 20%;
+}
+.i{
+    float: left;
+    margin-left: 6%;
+    /* margin-right: 5%; */
+    text-decoration: none;
+    font-size: 1.1vw;
+
+}
+.h{
+    color: rgb(177, 245, 245);
+    text-align: center;
+    /* padding: 5%; */
+}
+hr{
+    margin-left: 6%;
+    border-color: rgb(10, 251, 251);
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#text-animation {
+    animation: slideInFromLeft 1.5s ease-out;
+    /* margin-left: 1%; */
+}
+
+#im {
+    float: left;
+    width: 33%;
+    margin-top: 2%;
+    padding: 1%;
+    /* border: 5px solid rgb(250, 6, 6); */
+    opacity: 0.8;
+    border-radius: 20%;
+
+}
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 30px;
+    /* color: black; */
+    padding: 10px;
+}
+
+.btn {
+    font-size: 2vw;
+    text-align: center;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10%;
+    width: 45%;
+    color: rgb(6, 8, 10);
+    margin-left: 55px;
+    
+}
+
+.btn1 {
+    font-size: 2vw;
+    text-align: center;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10%;
+    width: 45%;
+    color: rgb(7, 15, 22);
+    margin-left: 55px;
+    
+}
+
+img{
+    padding-right: 1%;
+}
+#pro{
+    margin-top: 50%;
+    text-align: center;
+    color: rgb(12, 246, 246);
+    margin-right: 10%;
+    margin-left: 9%;
+}
+.in{
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+    color: rgb(192, 252, 252);
+}
+p{
+    text-align: center;
+    color: rgb(248, 207, 61);
+    margin-bottom: 5%;
+}
+.he{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#about{
+    font-size: 1.5vw;
+    color: rgb(109, 201, 251);
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 9%;
+    margin-top: 4%;
+}
+.acontent{
+    margin-left: 15%;
+    margin-right: 15%;
+    color: rgb(251, 149, 61);
+}
+footer{
+    background-color: rgb(12, 2, 48);
+    font-size: 2vw;
+    text-align: center;
+    padding: 2%;
+    color: antiquewhite;
+}
+/* Add this at the end of your CSS */
+
+/* For tablet screens */
+@media screen and (max-width: 1300px) {
+    body {
+        font-size: 14px;
+        /* Adjust font size for better readability */
+    }
+
+    header {
+        padding: 5px 10px;
+        /* Adjust header padding */
+    }
+
+    
+
+    .nav-links {
+        margin-left: 115%;
+        /* Adjust margin for better alignment */
+    }
+
+    .nav-links a {
+        font-size: 2vw;
+        /* margin-left: 95%; */
+        /* Adjust font size */
+    }
+
+    pre {
+        font-size: 4vw;
+        /* Adjust font size */
+        /* margin-left: 1%; */
+        /* Reset margin */
+        padding: 2%;
+        padding-top: 15%;
+        padding-bottom: 5%;
+        /* Adjust padding */
+        width: 100%;
+        /* Make the text take full width */
+    }
+
+    #im {
+        width: 100%;
+        /* Make the image take full width */
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .btn,
+    .btn1 {
+        font-size: 4vw;
+        margin-left: 1%;
+        /* Adjust font size */
+    }
+
+    #skill,
+    #pro,
+    #about {
+        margin-left: 2%;
+        /* Adjust margin */
+        margin-right: 5%;
+        /* Adjust margin */
+        margin-top: 5%;
+    }
+
+    #skill {
+        margin-top: 10%;
+        margin-left: 5%;
+        position: static;
+    }
+    #im {
+          width: 80%;
+          margin-top: 5%;
+          clear: both;
+        }
+    .i{
+        font-size: 2vw;
+    }
+    
+}
+
+/* For mobile screens */
+@media screen and (max-width: 699px) {
+    #text-animation {
+        padding: 5%;
+        /* Adjust padding */
+    }
+
+    .btn,
+    .btn1 {
+        font-size: 4vw;
+        /* Adjust font size */
+    }
+
+    #skill {
+        margin-top: 5%;
+    }
+        #text-animation {
+            padding: 5%;
+        }
+    
+        .btn,
+        .btn1 {
+            font-size: 4vw;
+        }
+    
+    
+        .i {
+            font-size: 2.5vw;
+        }
+    
+        .in {
+            font-size: 5vw;
+        }
+    
+        .acontent {
+            font-size: 4.5vw;
+        }
+    
+        #f {
+            font-size: 4vw;
+        }
+    #about{
+        font-size: 4vw;
+    }
+}
+
+#im img {
+    max-width: 80%;
+    /* Ensure image doesn't exceed its container */
+    height: 450px;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Remove any default spacing */
+    margin-left: 20%;
+}
+
+
+
